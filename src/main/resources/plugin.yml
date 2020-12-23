@@ -1,0 +1,16 @@
+name: SimpleAutoSell
+version: ${project.version}
+main: me.meowso.simpleautosell.SimpleAutoSell
+api-version: 1.16
+authors: [meowsome]
+description: Simple auto sell when inventory full using Essentials worth & vault
+depend: [Essentials, Vault]
+permissions:
+  sas.use:
+    description: Gives user ability to use the toggle command to automatically have their inventory sold
+    default: op
+commands:
+  autosell:
+    description: SimpleAutoSell main command
+    usage: /<command> [on|enable|off|disable]
+    aliases: simpleautosell

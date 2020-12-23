@@ -1,0 +1,12 @@
+chatPrefix: "&8[&eSimpleAutoSell&8]"
+cooldown: 5000 #Cooldown between auto selling in milliseconds
+noPermissionMessage: "&cYou do not have permission to autosell."
+enabledMessage: "&aYour autosell is now enabled."
+errorEnablingMessage: "&cAn error occurred enabling your autosell."
+disabledMessage: "&cYour autosell is now disabled."
+errorDisablingMessage: "&cAn error occurred disabling your autosell."
+invalidArgumentMessage: "&7Please specify whether you would like to enable or disable autosell."
+sellingMessage: "&7Attempting to sell items in your inventory."
+statusMessage: "&7Your autosell is currently %s" #%s is the placeholder for enabled or disabled
+enabled: "&aenabled"
+disabled: "&cdisabled"
