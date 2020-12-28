@@ -41,7 +41,7 @@ public class FileHandler {
 
         players.remove(name);
 
-        database.set("playersWithSellAllTurnedOn", players);
+        database.set(enabledPlayerArray, players);
         database.save(file);
     }
 }
